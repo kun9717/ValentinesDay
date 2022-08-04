@@ -1,7 +1,12 @@
 body {
     margin: 0;
     padding: 0;
-    background: #fdc9d1;
+    /* background: #fdc9d1; */
+    background: url(our.jpg), url(cat.jpg);
+    background-repeat: no-repeat;
+    background-size: 40% 100%, 60% 100%;
+    background-attachment: fixed;
+    background-position: left, right;
     font-size: 12px;
     overflow: auto
 }
@@ -34,7 +39,7 @@ body {
     font-family: "sans-serif";
     width: 500px;
     font-size: 24px;
-    color: #666
+    color: rgb(241, 66, 43)
 }
 
 #messages {
@@ -69,13 +74,13 @@ body {
     width: 440px;
     margin-top: 60px !important;
     height: 400px;
-    color: #333;
+    color: rgb(68, 162, 216);
     font-family: "Consolas", "Monaco", "Bitstream Vera Sans Mono", "Courier New", "sans-serif";
     font-size: 12px
 }
 
 #code .string {
-    color: #2a36ff
+    color: #e6d819
 }
 
 #code .keyword {
@@ -92,7 +97,7 @@ body {
 }
 
 #code .comments {
-    color: #3f7f5f
+    color: #1eb46e
 }
 
 #copyright {
